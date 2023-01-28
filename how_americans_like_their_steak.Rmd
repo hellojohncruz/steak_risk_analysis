@@ -3,21 +3,21 @@ title: "How Americans Like Their Steak"
 author: "John Cruz"
 date: "2023-01-27"
 output:
-  pdf_document: default
   html_document: default
+  pdf_document: default
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(echo = TRUE, eval = TRUE, message = FALSE, warning = FALSE)
 ```
 
 ## Overview
 
 Walt Hickey from FiveThirtyEight collected data from people within the United States to see if a risk-averse person would be more likely to order a steak well done. They found no evidence a person that was a higher risk taker would prefer their steaks rare. 
 
-['FiveThirtyEight Article']('https://fivethirtyeight.com/features/how-americans-like-their-steak/')
+['FiveThirtyEight Article'](https://fivethirtyeight.com/features/how-americans-like-their-steak/)
 
-['Data Source']('https://raw.githubusercontent.com/fivethirtyeight/data/master/steak-survey/steak-risk-survey.csv')
+['Data Source'](https://raw.githubusercontent.com/fivethirtyeight/data/master/steak-survey/steak-risk-survey.csv)
 
 ## Required libraries
 ```{r library, message=FALSE}
